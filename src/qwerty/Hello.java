@@ -10,6 +10,8 @@ public class Hello {
         int b=MyMath.kub( 5);
         System.out.println("a= "+a);
         System.out.println("b= "+b);
-        System.out.println(MyMath.max( 8,  9));
+        System.out.println(MyMath.max3( 8,  9,12));
+        System.out.println(MyMath.isEven(12));
+        System.out.println(MyMath.isEven(7));
     }
 }
